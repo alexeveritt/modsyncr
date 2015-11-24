@@ -9,6 +9,10 @@
   "bin": {
     "modsyncr": "./modsyncr"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexeveritt/modsyncr.git"
+  },
   "author": "Alex Everitt",
   "license": "MIT",
   "dependencies": {

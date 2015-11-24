@@ -8,6 +8,7 @@ With modsyncr you can locally reference packages e.g. require('mysharedpackage')
 
 Example app sturucture
 
+```
 mainApp // any file in mainApp can access utilApp by using require(utilApp)
   |--node_modules
       |--utilApp // file:../utilApp
@@ -15,6 +16,7 @@ mainApp // any file in mainApp can access utilApp by using require(utilApp)
 libs
   |--utilApp // shared app referenced by mainApp
   |--dataApp // shared app referenced by mainApp
+```
 
 mainApp uses the modules utilApp and dataApp and all 3 apps are being developed at the same time. When the mainApp is run, any changes to the utilApp and dataApp will not appear in the node_modules folder of the mainApp
 

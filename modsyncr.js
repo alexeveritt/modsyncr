@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 if (require('./lib/help')()) {
     return;
 }
@@ -5,7 +6,5 @@ if (require('./lib/help')()) {
 var syncr = require('./lib/syncr');
 var setup = require('./lib/setup');
 
-module.exports = function(done, opts) {
-    setup.options(opts);
-    return syncr.sync(done);
-}
+setup.options();
+syncr.sync();

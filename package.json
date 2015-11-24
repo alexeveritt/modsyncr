@@ -6,17 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "modsyncr": "./modsyncr"
+  },
   "author": "Alex Everitt",
   "license": "MIT",
   "dependencies": {
     "checksum": "^0.1.1",
     "glob": "^6.0.1",
     "lodash": "^3.10.1"
-  },
-  "modsyncr": {
-    "options": {
-      "src": "../testapp",
-      "mode": "full"
-    }
   }
 }

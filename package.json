@@ -1,7 +1,7 @@
 {
   "name": "modsyncr",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Sychronises local modules without the need to keep bumping version numbers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -39,3 +39,8 @@ node modsyncr
 
 global install
 npm install –g modsyncr
+
+TODO
+Create Gulp Task to run as part of build steps
+Add watcher to keep files in sync as they change
+Handle error when a module is renamed

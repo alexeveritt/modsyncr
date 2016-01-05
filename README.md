@@ -6,7 +6,7 @@ modsyncr makes it easy to keep locally referenced node modules in sync without r
 It is intended to help when working on large projects that need to be broken into seperate packages.
 With modsyncr you can locally reference packages e.g. require('mysharedpackage') without having to worry about managing paths or symbolic links.
 
-Example app sturucture
+Example app structure
 
 ```
 mainApp // any file in mainApp can access utilApp by using require(utilApp)
